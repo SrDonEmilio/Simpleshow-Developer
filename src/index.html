@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simpleshow Interactive | Developer</title>
+  </head>
+  <body style="opacity: 0;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="container">
+      <div id="welcome-screen">
+        <div id="welcome-message">
+          <object
+            data="assets/images/start_overlay-box-large.svg"
+            type="image/svg+xml"
+            id="welcome-overlay"
+          >
+          </object>
+        </div>
+      </div>
+      <object
+        data="assets/images/hanger_background-with-parts.svg"
+        type="image/svg+xml"
+        id="hanger-svg"
+      >
+        <img
+          src="assets/images/hanger_background-with-parts.svg"
+          alt="Hanger"
+        />
+      </object>
+      <div id="laboratory-screen">
+        <div id="hanger-container">
+          <img
+            src="assets/images/hanger_background.svg"
+            alt="Hangar with parts"
+            id="hanger"
+          />
+        </div>
+        <div id="parts">
+          <div id="instructions">
+            <img
+              src="assets/images/instruction_box.svg"
+              alt="Instrcutions Box"
+            />
+          </div>
+          <div id="droppable-parts"></div>
+          <div id="draggable-parts"></div>
+        </div>
+      </div>
+      <div id="success-screen">
+        <object
+          data="assets/images/feedback_overlay-box-large.svg"
+          type="image/svg+xml"
+          id="launch-success"
+        ></object>
+      </div>
+    </div>
+    <div id="logo-simpleshow" class="hide d-none">
+      <img src="assets/images/logo-simpleshow.svg" alt="Logo Simpleshow" />
+    </div>
+  </body>
+</html>
