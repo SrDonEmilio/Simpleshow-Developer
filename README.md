@@ -1,6 +1,6 @@
 # Simpleshow - Developer
 
-Install all node dependencias
+Install all node modules
 
 ```shell
 npm i
