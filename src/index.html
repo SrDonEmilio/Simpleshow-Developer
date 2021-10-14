@@ -11,7 +11,7 @@
       <div id="welcome-screen">
         <div id="welcome-message">
           <object
-            data="assets/images/start_overlay-box-large.svg"
+            data=<%=require("./assets/images/start_overlay-box-large.svg")%>  
             type="image/svg+xml"
             id="welcome-overlay"
           >
@@ -19,19 +19,19 @@
         </div>
       </div>
       <object
-        data="assets/images/hanger_background-with-parts.svg"
+        data=<%=require("./assets/images/hanger_background-with-parts.svg")%> 
         type="image/svg+xml"
         id="hanger-svg"
       >
         <img
-          src="assets/images/hanger_background-with-parts.svg"
+          src=<%=require("./assets/images/hanger_background-with-parts.svg")%>
           alt="Hanger"
         />
       </object>
       <div id="laboratory-screen">
         <div id="hanger-container">
           <img
-            src="assets/images/hanger_background.svg"
+            src=<%=require("./assets/images/hanger_background.svg")%>
             alt="Hangar with parts"
             id="hanger"
           />
@@ -39,7 +39,7 @@
         <div id="parts">
           <div id="instructions">
             <img
-              src="assets/images/instruction_box.svg"
+              src=<%=require("./assets/images/instruction_box.svg")%>
               alt="Instrcutions Box"
             />
           </div>
@@ -49,14 +49,14 @@
       </div>
       <div id="success-screen">
         <object
-          data="assets/images/feedback_overlay-box-large.svg"
+          data=<%=require("./assets/images/feedback_overlay-box-large.svg")%>
           type="image/svg+xml"
           id="launch-success"
         ></object>
       </div>
     </div>
     <div id="logo-simpleshow" class="hide d-none">
-      <img src="assets/images/logo-simpleshow.svg" alt="Logo Simpleshow" />
+      <img src=<%=require("./assets/images/logo-simpleshow.svg")%> alt="Logo Simpleshow" />
     </div>
   </body>
 </html>
